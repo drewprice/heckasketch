@@ -1,0 +1,89 @@
+
+/* Heckasketch header & link to source code */
+	#sketch {
+		height: 60px;
+		width: 33%;
+		margin: 12px auto 10px auto;
+		text-align: center;
+	}
+
+		#heck {
+			height: 75px;
+			margin-left: auto;
+			text-align: center;
+			text-decoration: none;
+			font: italic 900 3em 'Playfair Display';
+			color: #B0B0B0;
+			-webkit-transition: all 0.3s ease;
+	    	-moz-transition: all 0.3s ease;
+	    	-o-transition: all 0.3s ease;
+	    	transition: all 0.3s ease;
+		}
+
+		#heck:hover {
+			color: #fff;
+			font: 100 2.9em 'Lato';
+		}
+
+		.spotlight {
+			background-color: #f0f0f0;
+			padding: 0 10px 5px 10px;
+			border-radius: 3px;
+			color: #fff;
+			box-shadow: 2px 2px #B0B0B0
+		}
+
+
+/* User Controls */
+	.wrap {
+		width: 512px;
+		margin: auto;
+		text-align: center;
+	}
+
+		.wrap > a {
+			padding: 5px 10px;
+			background-color: #f0f0f0;
+			color: #707070;
+			text-decoration: none;
+			border-radius: 3px;
+			font: 100 1em 'Lato';
+			margin: 10px;
+		}
+
+		.wrap > a:hover {
+			background-color: #D6D6D6;
+		}
+
+			#new {
+				padding: 10px 20px;
+				font-size: 1.2em;
+				background-color: #B8D4D4;
+				color: #fff;
+				display: inline-block;
+			}
+
+			#new:hover {
+				background-color: #A2BABA;
+			}
+
+/* Grid */
+	.container {
+		height: 512px;
+		width: 512px;
+		margin: 0.5% auto;
+		border: 1px solid #D6D6D6;
+		border-radius: 2%;
+		overflow: hidden;
+	}
+
+		.box {
+			height: 0px;
+			width: 0px;
+			margin: 0;
+			float: left;
+		}
+
+		.highlight {
+			background: #707070;
+		}
